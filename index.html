@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>SIMMINHYUNG.com</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/54ae93b2e8.js" crossorigin="anonymous"></script>
+        <script src="swap.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style> 
+        .navbar 
+        {
+            background-color: yellow;
+        }           
+        </style>
+    </head>
+
+
+    <body>
+        <nav class="navbar">
+            <div class="nav_menu1" onclick="doDisplay1()">
+                <i class="fa-solid fa-cat"></i>
+                <a href="#">SIM MINHYUNG</a>
+            </div>
+            <ul class="navbar_menu">
+                <li class="nav_menu4" onclick="doDisplay1()"><a href="#">메인</a></li>               
+                <li class="nav_menu3" onclick="doDisplay2()"><a href="#">시간표</a></li>
+                <li class="nav_menu2" onclick="doDisplay3()"><a href="#">취미</a></li>
+                
+            </ul>
+            <ul class="navbar_icons">
+                <p>sns -> </p>
+                <a href="mailto:cessio@naver.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.instagram.com/minhyung_99_/"><i class="fa-brands fa-instagram"></i></a>
+            </ul>
+            <a href="#" class="navbar_toogleBtn">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+
+
+        <div class="container">
+
+
+
+
+            <div class="home" id = "menu-home">
+                <div class="img-person">
+                    <img src="minhyung.jpg" width="100%" >
+                </div>
+                <div class="home-main-content1">
+                    <h3>자기소개</h3>
+                    <li>강원대학교 컴퓨터정보통신공학과 3학년 입니다.</li> 
+                        <li>성남고등학교(구 성남서고)를 졸업 하였습니다.</li>
+                            <li>최근 인간다운 삶을 살아가고파 운동을 시작하였습니다.</li>
+                                <li>아침식사로 배추를 구워먹는걸 좋아합니다.</li>
+                                    <li>여자친구가 있습니다.</li>
+                </div>
+                <div class="home-main-content2">
+                    <h3>이번학기 목표</h3>
+                    <ul class="goal">
+                        <li>컴퓨터 활용능력 자격증 1급 취득</li>
+                        <li>학점 4.0 이상 취득</li>
+                        <li>체지방률 15% 미만 만들기</li>
+                    </ul>
+                </div>
+                <div class="home-main-content3">
+                    <h3>개인적인 궁금증은 아래 카카오톡으로 문의 부탁드립니다.</h3>
+                    <p>kakaotalk ID : sim712</p>
+                </div>
+            </div>
+
+
+            <div class="aboutMe"  id = "menu-aboutMe" style="display : none";>
+                <div>
+                    <div class="img-person">
+                        <img src="timetable.jpg" width="80%" >
+                    </div>
+                    <h3>23 - 1학기 시간표</h3>
+                    <ul>
+                        <br>
+                        <li>●SW창업입문-홍성호교수님</li>
+                        <br>
+                        <li>●고급파이썬프로그래밍-이창기교수님</li>
+                        <br>
+                        <li>●데이터통신-김화종교수님</li>
+                        <br>
+                        <li>●사회봉사-김거유교수님</li>
+                        <br>
+                        <li>●운영체제-김용석교수님</li>
+                        <br>
+                        <li>●웹프로그래밍-김아욱교수님</li>
+                        <br>
+                        <li>●자료구조-최황규교수님</li>
+                        <br>
+                    </ul>
+                </div>
+                <div class="hobby">
+                    <h3>추가 활동</h3>
+                    <p>국궁 동아리 - 화랑 -<br> 
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+            <div class="activity" id = "menu-activity" style="display : none";>
+                <div>
+                    <h3>취미 - 국궁 -</h3>
+                    <br>
+                    <div class="img-">
+                        <img src="bow.jpg" width="40%" >
+                    </div>
+                    <ul>
+                        <li>국궁: 한국 전통 궁술의 아름다움과 정신</li>
+                        <br>
+                        <ul>
+                            <li>국궁은 한국의 전통 궁술로, 오랜 역사와 깊은 문화적 의미를 지니고 있습니다. </li>
+                        </ul>
+                        <br>
+                        <p>국궁은 활과 화살을 사용하여 이루어지며, 사람들이 진정한 명중률과 정확성을 추구하면서도 균형, 조화, 내면의 평정을 표현합니다.<br>
+                            국궁은 무기의 사용보다는 개인의 내면을 닦고 정화하는 데 중점을 두며, 몸과 마음의 조화를 추구하는 수련 방법으로도 인기를 얻고 있습니다.
+                        </p>
+
+                        <br>
+                        </ul>
+                        <br>
+                        <p>춘천 호반정 위치</p>
+                        <a href="https://map.naver.com/v5/entry/place/15635908?lng=127.6942971&lat=37.8544486&placePath=%2Fhome%3Fentry=plt&c=15,0,0,0,dh"><img src="map.jpg" alt="맵 아이콘" width="40%"></a>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <ul>
+                            <li>그 외 국궁에 대한 자세한 정보를 알고싶다면 링크를 클릭하시오.</li>
+                        </ul>
+                        <br>
+                        <a href="http://ccaa.kr/">"http://ccaa.kr"</a>
+                    </ul>
+                </div>
+
+            </div>
+ 
+
+        <footer class="bottom">
+            <p>Copyright @ 2023. SIM MINHYUNG (cessio@naver.com) All rights reserved.</p>
+        </footer>
+    </body>
+</html>
